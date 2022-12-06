@@ -1,11 +1,14 @@
-## aws-static-website
-Deploy Static website to AWS with HTTPS-S3, Route 53,Cloud Front and certificate manager
+## AWS-static-website
 
-Set up custom domain with SSL
+- Deploy Static website to AWS with HTTPS-S3, Route 53, Cloud Front and certificate manager
 
-Requirement: basic understanding of AWS
+- Set up custom domain with SSL
+
+# Requirement: basic understanding of AWS
 
 Overview: User, types domain name, Route 53 will route user to cloud front. AWS Certificate manager will provide HTTPS certificate. Cloud front will reach out to Amazon S3 bucket to get website content to serve the user.
+
+Architecture
 
 ![Architecture](./images/architecture.png)
 
