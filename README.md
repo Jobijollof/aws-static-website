@@ -71,20 +71,20 @@ Route 53 is a highly available scalable domain name service
 
 Configure a hosted zone on Route 53
 - Click on `DNS Management`
-- Click on create hosted Zone
+- Click on `create hosted Zone`
 - Domain name = domain name from  [Freenom](https://www.freenom.com/en/index.html?lang=en)
 - Leave as public hosted zone
-- Click on Create
+- Click on `Create`
 - Go back to [Freenom](https://www.freenom.com/en/index.html?lang=en) ![manage domain name ](./images/free-domain-name.png) 
 - Click on `manage domain`
 - Click on `Management tools`
 - Click on `name servers`
-- Click n `use custom domain server`
-- Go back to Route 53 (Click on the hosted zone with NS and copy the fourname servers)
+- Click on `use custom domain server`
+- Go back to Route 53 (Click on the hosted zone with NS and copy the four name servers)
 
 ![name server ](./images/name-servers.png) 
 
-- Copy the nameservers from the hosted zone (NS) in  Route 53  and replace them with one in Freenom.
+- Copy the name servers from the hosted zone (NS) in  Route 53  and replace them with one in Freenom.
 - Click on `change name` 
 
 # Step 4 Create SSL Certificate using AWS Certificate Manager
